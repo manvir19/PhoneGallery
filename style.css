@@ -5,6 +5,11 @@ body{
     
     
 }
+@media only screen and (max-width:310px){
+    svg{
+        width: 90%;
+    }
+}
 nav{
     z-index: 2;
       position:fixed;
