@@ -3,12 +3,13 @@
 body{
     background: url(https://media.istockphoto.com/photos/grunge-wall-picture-id174931919?b=1&k=20&m=174931919&s=612x612&w=0&h=RSJTMDSlVW5A_hwIv4aCBXU17fc-lNOl03bTWxTEM_8=);
     background-color: bisque;
+    max-width: 768px;
 }
 nav{
     z-index: 2;
       position:fixed;
       height: 85px;
-      width: 768px;
+      max-width: 768px;
   }
  
   .navbar{
