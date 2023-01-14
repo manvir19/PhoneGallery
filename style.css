@@ -1,0 +1,72 @@
+
+
+body{
+    background: url(https://media.istockphoto.com/photos/grunge-wall-picture-id174931919?b=1&k=20&m=174931919&s=612x612&w=0&h=RSJTMDSlVW5A_hwIv4aCBXU17fc-lNOl03bTWxTEM_8=);
+    background-color: bisque;
+}
+nav{
+    z-index: 2;
+      position:fixed;
+      height: 85px;
+  }
+ 
+  .navbar{
+  
+    text-align:center !important;
+    background-color: black;
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+  }
+  .navbar-dark{
+      background-color: rgb(16,16,16);
+  
+  }
+  .nav-link:hover{
+      color: rgb(255,255,255)!important;
+  }
+  .dropdown-item:hover{
+      color: rgb(55, 53, 52)!important;
+  
+  }
+#a1{
+    margin-top: 60px !important;
+    margin-left: 0px;
+    margin-right: 0;
+}
+#a2{
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+text{
+    font-family: 'Cardo', serif;
+}
+
+/* .hidden{
+    visibility: hidden;
+    
+}
+.hidden:hover{
+    visibility: visible;
+    
+}
+.try{
+    display: none;
+}
+.visible{
+    visibility: visible;
+} */
+
+p{
+    color: #000;
+}
+
+#img1{
+    width: 146px;
+    height: 146px;
+    border-radius: 30px;
+    padding: 10px
+}
+div{
+  margin-left: 20px;
+}
