@@ -8,6 +8,7 @@ nav{
     z-index: 2;
       position:fixed;
       height: 85px;
+      width: 768px;
   }
  
   .navbar{
