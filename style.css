@@ -13,6 +13,9 @@ body{
     #a2 text{
         transform: translate(-449px, 0px);
     }
+   svg.visible{
+    width: 320px;
+    }
     
 
 }
@@ -25,7 +28,14 @@ body{
     #a2 text{
         transform: translate(-393px, 0px);
     }
+    #a2 svg{
+        width: 375px;
+    }
+    svg.visible{
+        width: 375px;
+        }
 }
+
 @media only screen and (max-width:426px) and (min-width:376px){
     
     #a2 polygon{
@@ -35,6 +45,12 @@ body{
     #a2 text{
         transform: translate(-342px, 0px);
     }
+    #a2 svg{
+        width: 425px;
+    }
+    svg.visible{
+        width: 425px;
+        }
 }
 @media only screen and (max-width:769px) and (min-width:426px){
     
@@ -45,8 +61,13 @@ body{
     #a2 text{
         transform: translate(-2px, 0px);
     }
+    #a2 svg{
+        width: 768px;
+    }
+    svg.visible{
+        width: 768px;
+        }
 }
-
 
 #s2{
     display: none;
