@@ -2,20 +2,63 @@
 
 body{
     background: url(https://media.istockphoto.com/photos/grunge-wall-picture-id174931919?b=1&k=20&m=174931919&s=612x612&w=0&h=RSJTMDSlVW5A_hwIv4aCBXU17fc-lNOl03bTWxTEM_8=);
-    
-    
+     
 }
-@media only screen and (max-width:319.5px){
-    svg{
-        width: 100%;
+@media only screen and (max-width:321px){
+    
+    #a2 polygon{
+        transform: translate(-449px, 0px);
+        margin-right: 0%;
     }
+    #a2 text{
+        transform: translate(-449px, 0px);
+    }
+    
+
+}
+@media only screen and (max-width:376px) and (min-width:321px){
+    
+    #a2 polygon{
+        transform: translate(-393px, 0px);
+        margin-right: 0%;
+    }
+    #a2 text{
+        transform: translate(-393px, 0px);
+    }
+}
+@media only screen and (max-width:426px) and (min-width:376px){
+    
+    #a2 polygon{
+        transform: translate(-342px, 0px);
+        margin-right: 0%;
+    }
+    #a2 text{
+        transform: translate(-342px, 0px);
+    }
+}
+@media only screen and (max-width:769px) and (min-width:426px){
+    
+    #a2 polygon{
+        transform: translate(-2px, 0px);
+        margin-right: 0%;
+    }
+    #a2 text{
+        transform: translate(-2px, 0px);
+    }
+}
+
+
+#s2{
+    display: none;
+}
+#s3{
+    display: none;
 }
 nav{
     z-index: 2;
       position:fixed;
       height: 85px;
-      width: 768px;
-      /* max-width: 768px; */
+       /* max-width: 768px; */
   }
  
   .navbar{
@@ -39,7 +82,7 @@ nav{
 #a1{
     margin-top: 60px !important;
     margin-left: 0px;
-    margin-right: 0;
+    margin-right: 0px;
 }
 #a2{
     margin-top: 30px;
