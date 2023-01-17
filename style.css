@@ -19,11 +19,27 @@ body{
     
 
 }
+@media only screen and (max-width:391px) and (min-width:389.5px){
+    
+    #a2 polygon{
+        transform: translate(-500px, 0px);
+        margin-right: 0%;
+    }
+    #a2 text{
+        transform: translate(-449px, 0px);
+    }
+   svg.visible{
+    width: 320px;
+    }
+    
+
+}
 @media only screen and (max-width:376px) and (min-width:321px){
     
     #a2 polygon{
         transform: translate(-393px, 0px);
         margin-right: 0%;
+       
     }
     #a2 text{
         transform: translate(-393px, 0px);
