@@ -247,7 +247,10 @@ body{
     margin-right: 0px;
 }
 text{
-    font-family: 'Cardo', serif;
+    /* font-family: 'Cardo', serif; */
+    /* font-family: 'Bree Serif', serif; */
+    /* font-family: 'Playfair Display SC', serif; */
+    font-family: 'Rubik 80s Fade', cursive;
 }
 
 /* .hidden{
