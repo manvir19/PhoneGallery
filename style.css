@@ -53,7 +53,7 @@ body{
       padding: 6px
   }
   #img2{
-    width: 316px;
+    width: 306px;
     height: 200px;
     border-radius: 30px;
     padding: 6px
@@ -84,7 +84,7 @@ body{
           padding: 6px
       }
       #img2{
-        width: 370px;
+        width: 360px;
         height: 220px;
         border-radius: 30px;
         padding: 6px
@@ -113,7 +113,7 @@ body{
           padding: 10px
       }
       #img2{
-        width: 396px;
+        width: 386px;
         height: 240px;
         border-radius: 30px;
         padding: 10px
@@ -169,13 +169,13 @@ body{
         padding: 6px
     }
     #img2{
-      width: 420px;
+      width: 410px;
       height: 240px;
       border-radius: 30px;
       padding: 6px
     }
 }
-@media only screen and (max-width:769px) and (min-width:426px){
+/* @media only screen and (max-width:769px) and (min-width:426px){
     
     #a2 polygon{
         transform: translate(-2px, 0px);
@@ -197,12 +197,12 @@ body{
           padding: 10px
       }
       #img2{
-        width: 316px;
+        width: 306px;
         height: 200px;
         border-radius: 30px;
         padding: 10px
       }
-}
+} */
 
 #s2{
     display: none;
